@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/landing page/css/variables.css">
+    <link rel="stylesheet" href="/landing page/css/elements.css">
+    <link rel="stylesheet" href="/landing page/css/classes.css">
+    <link rel="stylesheet" href="/landing page/css/menu.css">
+    <link rel="stylesheet" href="/landing page/css/style.css">
+</head>
+<body class="main-bg">
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close-menu"
+    role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg">
+     <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;"><a href="#">LOGO</a></h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li><a href="#intro">intro</a></li>
+                <li><a href="#grid-one">grid-one</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#grid-two">grid-two</a></li>
+                <li><a href="#pricing">pricing</a></li>
+                <li><a href="#contact">contato</a></li>
+            </ul>
+        </nav>
+     </div>
+    </aside>
+ 
+    <div class="menu-spacing"></div>
+
+    <section class="intro section main-bg " >
+     <div class="main-content intro-content">
+      <div class="intro-text-content">
+      <h2>January brings us Firefox 85</h2>
+      <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox</p>
+      </div>
+      <div class="intro-img">
+        <img src="/landing page/img/javascript-not-optimized.svg" alt="logo de html, csse js">
+      </div>
+     </div>
+    </section>
+    <section class="section white-bg " id="intro">
+    <div class="main-content top3-content">
+      <h2>TOP 3 jobs</h2>
+      <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.  
+      </p>
+      <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.    
+      </p>
+      <p>We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.
+      </p>
+    </div>
+    </section>
+
+
+    <section class="grid-one section main-bg" id="grid-one">
+      <div class="main-content grid-one-content">
+        <h2 class="grid-main-heading">my grid</h2>
+        <p class="grid-description">Here are some recent work.</p>
+    
+        <div class="grid">
+            <article>
+                <h3>First</h3>
+                <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+            </article>
+            <article>
+                <h3>Another site</h3>
+                <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+            </article>
+            <article>
+                <h3>Third one</h3>
+                <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support.</p>
+            </article>
+        </div>
+    </div> 
+    </section>
+    
+    <section class="grid-one section white-bg" id="gallery">
+        <div class="main-content grid-one-content">
+          <h2 class="grid-main-heading">gallery</h2>
+          <p class="grid-description">Here are some of my pics.</p>
+      
+          <div class="grid">
+
+             <div class="gallery-img">
+                <img class="img" src="https://4.bp.blogspot.com/-wpGcMwMGFHQ/V6ZtydFbufI/AAAAAAAADHk/4hELqSh4eYIUb1tqvi_VUN4f782BUSVgwCLcB/s2560/amazing_landscape-wallpaper-1920x1080.jpg" alt="natureza">
+             </div>
+             <div class="gallery-img">
+                <img class="img" src="https://tse4.mm.bing.net/th?id=OIP.t3SfnPNEmTGK6OBtXg8LQQHaEK&pid=Api&P=0&h=180" alt="natureza">
+             </div>
+             <div class="gallery-img">
+                <img class="img" src="https://tse4.mm.bing.net/th?id=OIP.vi2e0vsZmzkQHctlrdAz_gHaEo&pid=Api&P=0&h=180" alt="natureza">
+             </div>
+             <div class="gallery-img">
+                <img class="img" src="https://tse3.mm.bing.net/th?id=OIP._F9JHXe-nqZR9SeOaXqk2AHaEo&pid=Api&P=0&h=180" alt="natureza">
+             </div>
+             <div class="gallery-img">
+                <img class="img" src="https://tse3.mm.bing.net/th?id=OIP.QXKu3J6hA11SGcgpVfTVAQHaEo&pid=Api&P=0&w=300&h=300" alt="naturez">
+             </div>
+             <div class="gallery-img">
+                <img class="img" src="https://tse1.mm.bing.net/th?id=OIP.bs3QdXmj9LMXK07KvZzXBAHaE8&pid=Api&P=0&h=180" alt="natureza">
+             </div>
+
+          </div>
+        </div> 
+      </section>
+
+      <section class="grid-one section main-bg" id="grid-two">
+        <div class="main-content grid-one-content">
+          <h2 class="grid-main-heading grid-description">recents jobs</h2>
+           
+          <div class="grid">
+              <article>
+                  <h3>A good one</h3>
+                  <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+              </article>
+              <article>
+                  <h3>Great job</h3>
+                  <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.</p>
+              </article>
+              <article>
+                  <h3>The best</h3>
+                  <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support.</p>
+              </article>
+          </div>
+      </div> 
+      </section>
+
+      <section class="section white-bg " id="pricing">
+        <div class="main-content top3-content">
+          <h2>pricing</h2>
+          <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs.  
+          </p>
+         <div class="responsive-table">
+          <table>
+            <caption>Pricing table</caption>
+            <thead>
+               <tr>
+                <th>Frutas</th>
+                <th>Bebidas</th>
+                <th>Comidas</th>
+                <th>Comidas</th>
+                <th>Comidas</th>
+               </tr>
+            </thead>
+            
+           <tbody>
+            <tr>
+                <td>Morango</td>
+                <td>Suco</td>
+                <td>Macarrão</td>
+                <td>Macarrão</td>
+                <td>Macarrão</td>
+            </tr>
+            <tr>
+                <td>Uva</td>
+                <td>Coca-Cola</td>
+                <td>Churrasco</td>
+                <td>Churrasco</td>
+                <td>Churrasco</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>Guaraná</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>Guaraná</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+            </tr>
+            <tr>
+                <td>Laranja</td>
+                <td>Guaraná</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+                <td>Strogonoff</td>
+            </tr>
+           </tbody>
+           <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Footer 1</td>
+                </tr>
+           </tfoot>
+          </table>
+        </div>
+        </div>
+        </section>
+
+    <section class="intro section main-bg " id="contact">
+        <div class="main-content intro-content">
+         <div class="intro-text-content">
+         <h2>Contact us</h2>
+         <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox</p>
+         </div>
+
+         
+         <div class="intro-img">
+            <img src="/landing page/img/javascript-not-optimized.svg" alt="logo de html, csse js">
+         </div>
+         
+         <div class="contact-form">
+            <fieldset class="form-grid">
+                <legend>Contact form</legend>
+
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Your good e-mail">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="message">Your message</label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                </div>
+
+                <div class="form-group full-width">
+                    
+                    <button type="submit">Send message</button>
+                </div>
+            </fieldset>
+         </div>
+        </div>
+       </section>
+
+       <footer id="footer" class="footer white-bg">
+        <p>Feito com <span class="heart">♥</span> por Gabriel Souza Lopes dos Santos</p>
+       </footer>
+
+       <a class="back-to-top" href="#">➤</a>
+</body>
+</html>
