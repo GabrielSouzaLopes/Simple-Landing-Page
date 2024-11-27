@@ -171,6 +171,10 @@ table th, tfoot td{
   margin: 0 auto;
   padding: 10rem var(--gap);
 }
+.main-contentt{
+  max-width: 120rem;
+  margin: 0 auto
+}
 
 .section {
     min-height: 100vh;
